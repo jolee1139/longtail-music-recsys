@@ -1,0 +1,9 @@
+# Pin exact versions (pip freeze) once your environment works.
+numpy
+pandas
+scipy
+implicit
+matplotlib
+jupyter
+streamlit
+pytest

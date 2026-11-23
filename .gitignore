@@ -1,0 +1,26 @@
+# Data (too large to commit, and the license doesn't allow sharing it)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Models / large artifacts
+*.npz
+*.pkl
+models/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+.env
